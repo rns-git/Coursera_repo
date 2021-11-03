@@ -3,6 +3,7 @@ body {
 	color: #fff;
 }
 
+
 /*Header*/
 
 #header-nav {
@@ -85,9 +86,7 @@ body {
 	color: black;
 }
 
-.last {
-	margin-bottom: 20px;
-}
+
 /* End Main Content */
 
 
@@ -125,7 +124,7 @@ body {
 
 /*********** Small devices only ***********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+	
 	
 }
 
@@ -138,6 +137,10 @@ body {
 @media (max-width: 767px) {
 	.navbar-header h1 {
 		margin-left: 40px;
+	}
+
+	.container {
+		margin: 0 15px 0 15px;
 	}
 }
 
@@ -155,6 +158,11 @@ body {
 @media (max-width: 479px) {
 
 }
+
+
+
+
+
 
 
 
